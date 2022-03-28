@@ -27,3 +27,5 @@ def binarySearch(l, r):
         return binarySearch(l, m-1)
 
 print(binarySearch(0, max(distances) - 1))
+
+
